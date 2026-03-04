@@ -1,101 +1,47 @@
-# 📝 MERN Stack Todo App with REST API
+# 📝 MERN Stack Todo App
 
-A fully functional full-stack To-Do List application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).  
-This application demonstrates complete CRUD operations with REST API integration and a modern responsive user interface.
+A simple full-stack To-Do List application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).  
+This project demonstrates CRUD operations with REST API integration and a responsive UI.
 
 ---
 
 ## 🧩 Tech Stack
 
-### 🔹 Front-End
-- React.js
-- Bootstrap (via react-bootstrap)
-- Axios
-- React Hooks (useState, useEffect)
+### 🔹 Frontend
+- React.js  
+- Bootstrap  
+- Axios  
 
-### 🔹 Back-End
-- Node.js
-- Express.js
-- MongoDB (Local using MongoDB Compass)
-- Mongoose ODM
-- express-validator (Input validation)
-- CORS Middleware
+### 🔹 Backend
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
 
 ---
 
 ## ⚙️ REST API Endpoints
 
-| Method | Endpoint       | Description              |
-|--------|---------------|--------------------------|
-| GET    | /get          | Get all todos            |
-| GET    | /get/:id      | Get a todo by ID         |
-| POST   | /post         | Add a new todo           |
-| PUT    | /put/:id      | Toggle status (Done)     |
-| DELETE | /delete/:id   | Delete a todo by ID      |
+| Method | Endpoint       | Description          |
+|--------|---------------|----------------------|
+| GET    | /get          | Get all todos        |
+| GET    | /get/:id      | Get todo by ID       |
+| POST   | /post         | Add new todo         |
+| PUT    | /put/:id      | Toggle status        |
+| DELETE | /delete/:id   | Delete todo          |
 
 ---
 
-🛠️ Getting Started
-🔧 Requirements
-
-Node.js & npm
-
-MongoDB installed locally
-
-MongoDB Compass (optional)
-
-VS Code (recommended)
-
-🚀 Installation & Setup
-1️⃣ Install Backend Dependencies
+## 🚀 Installation
+bash
 npm install
-2️⃣ Start MongoDB Locally
-
-Make sure MongoDB service is running.
-
-3️⃣ Run Backend Server
 node app.js
 
-Server runs on:
-
-http://localhost:5000
-4️⃣ Setup Frontend
-
-Open new terminal:
-
+Frontend:
 cd client
 npm install
 npm start
 
-Frontend runs on:
-
-http://localhost:3000
-🌟 Features
-
-Add new tasks
-
-View all tasks
-
-Toggle task completion
-
-Delete tasks
-
-RESTful API integration
-
-Clean & responsive UI
-
-Input validation using express-validator
-
-🎯 Learning Outcomes
-
-Built REST APIs using Express
-
-Integrated MongoDB using Mongoose
-
-Connected React frontend with backend API
-
-Managed state using React Hooks
-
-Implemented input validation
-
-Structured full-stack application properly
+```bash
+npm install
+node app.js
